@@ -23,11 +23,15 @@ const ButtonExample = () => {
         fontSize: isNoPressed ? `${16 * (pressCount + 1)}px` : '16px', // Update fontSize based on pressCount
     };
 
+    const noButtonStyle = {
+        fontSize: isNoPressed ? `${16 / (pressCount + 1)}px` : '16px', // Update fontSize based on pressCount
+    }
+
     return (
         <div>
             {isElementsVisible && (
                 <>
-                    <button className="blank-button" onClick={handleNoButtonClick}>No</button>
+                    <button className="blank-button" style={noButtonStyle} onClick={handleNoButtonClick}>No</button>
                     <button className="blank-button" style={yesButtonStyle} onClick={handleYesButtonClick}>Yes</button>
                 </>
             )}
