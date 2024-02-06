@@ -24,7 +24,7 @@ const ButtonExample = () => {
     };
 
     const noButtonStyle = {
-        fontSize: isNoPressed ? `${16 / (pressCount + 1)}px` : '16px', // Update fontSize based on pressCount
+        fontSize: isNoPressed ? `${20 / (pressCount + 1)}px` : '16px', // Update fontSize based on pressCount
     }
 
     return (
