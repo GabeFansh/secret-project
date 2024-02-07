@@ -39,7 +39,7 @@ const ButtonExample = () => {
             )}
             {!isElementsVisible && (
                 <>
-                    <p>Yippee</p>
+                    <p>Yippee!!!!</p>
                     {showConfetti && <Confetti />}
                 </>
             )}

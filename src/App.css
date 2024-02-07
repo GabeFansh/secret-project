@@ -4,3 +4,9 @@
   padding: 2rem;
   text-align: center;
 }
+
+.meme {
+  max-width: 50%;
+  height: auto;
+  margin: 2rem 0;
+}

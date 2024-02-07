@@ -10,7 +10,7 @@ function App() {
     <>
       <div>
         <h1 className='header'>Will you be my valentine?</h1>
-        <img src="./cringymeme.png"/>
+        <img className="meme" src="./thingy-blank.png"/>
         <Button />
       </div>
     </>
