@@ -9,7 +9,7 @@ const ButtonExample = () => {
     const [showConfetti, setShowConfetti] = useState(false); // Add showConfetti state variable
 
     const handleNoButtonClick = () => {
-        if (pressCount < 20) { // Limit pressCount to 5
+        if (pressCount < 8) { // Limit pressCount to 5
             setIsNoPressed(true);
             setPressCount(prevCount => prevCount + 1); // Increase pressCount by 1
         }
